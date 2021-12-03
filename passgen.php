@@ -1,4 +1,5 @@
 <?php
+    for ($j = 0; $j < 20; $j++) {
     $alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
     $pass = array(); //remember to declare $pass as an array
     $alphaLength = strlen($alphabet) - 1; //put the length -1 in cache
@@ -7,4 +8,5 @@
         $pass[] = $alphabet[$n];
     }
     echo implode($pass); //turn the array into a string
+    }
 ?>
